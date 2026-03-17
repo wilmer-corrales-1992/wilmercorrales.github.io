@@ -32,6 +32,24 @@ export default function ProjectsSection() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
+                  {project.video && (
+                    <div className="mb-4 rounded-lg overflow-hidden aspect-video">
+                      {project.video.includes("youtube.com") || project.video.includes("vimeo.com") || project.video.includes("loom.com") ? (
+                        <iframe
+                          src={project.video}
+                          className="w-full h-full"
+                          allowFullScreen
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        />
+                      ) : (
+                        <video
+                          src={project.video}
+                          className="w-full h-full object-cover"
+                          controls
+                        />
+                      )}
+                    </div>
+                  )}
                   <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
                     {project.description.map((desc, i) => (
                       <motion.li

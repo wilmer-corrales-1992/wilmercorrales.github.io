@@ -23,7 +23,7 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "education"].map(
+          {["experience", "skills", "education", "projects"].map(
             (item, index) => (
               <motion.a
                 key={item}

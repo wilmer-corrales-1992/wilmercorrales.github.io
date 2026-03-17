@@ -77,12 +77,26 @@ export const education = [
 export const skills = {
   programmingLanguages: ["Ruby", "PHP", "JavaScript", "TypeScript"],
   frontendDevelopment: ["React", "HTML", "CSS"],
-  backendDevelopment: ["Ruby on Rails", "Symfony (PHP)"],
+  backendDevelopment: ["Ruby on Rails", "Symfony (PHP), Laravel (PHP)"],
   databaseAndStorage: ["PostgreSQL", "MySQL"],
   cloudAndDevOps: ["AWS", "Docker", "Terraform"],
   toolsAndServices: ["Git", "Jira", "Confluence", "Slack"],
 };
 
-export const projects = [];
+export const projects = [
+  {
+    title: "Task List App",
+    github: "https://github.com/wilmer-corrales-1992/task-list",
+    video: "https://www.loom.com/embed/905e604b80584b4db9c88feb2ce26701",
+    description: [
+      "Simple app to create/update/delete/show tasks",
+      "Laravel",
+      "Tailwind",
+      "Laravel",
+      "MySQL",
+      "Alpinejs"
+    ],
+  },
+];
 
 export const awards = [];
