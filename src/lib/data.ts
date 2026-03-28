@@ -100,7 +100,7 @@ export const projects = [
   {
     title: "REST API for quizzes",
     // github: "https://github.com/wilmer-corrales-1992/task-list",
-    video: "https://www.loom.com/share/bfe7cdda170c48f8a9c3fd8a9855083b",
+    video: "https://www.loom.com/embed/bfe7cdda170c48f8a9c3fd8a9855083b",
     description: [
       "Simple REST API for a quizzes application",
       "Agentic Ruby On Rails",
